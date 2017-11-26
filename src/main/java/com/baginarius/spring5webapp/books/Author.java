@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-public class Author {
+class Author {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
